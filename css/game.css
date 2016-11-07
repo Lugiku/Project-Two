@@ -1,0 +1,25 @@
+.background    { background: linear-gradient(black, #7139f2,#FA724A);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #FD5495; }
+.wall          { background: linear-gradient( #843294 ,rgba(0,0,0,0));
+  }
+
+.actor  { position: absolute;  }
+.coin   { background: #Ec3450;
+			box-shadow: 2px 1px #AA3D52;}
+.player { background:linear-gradient( #FF2F72, black); }
+.ice	{background:linear-gradient( #afc4e7, rgba(255,0,0,0));}
+
+.life	{background: #9bD367;
+			transform:rotateZ(45deg);
+			box-shadow: 2px 2px #31f07d;}
+ul		{color: green;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
